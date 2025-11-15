@@ -1,7 +1,8 @@
-tensorflow==2.9.0
+tensorflow==2.20.0
 flask
 numpy
 pillow
 werkzeug
 scikit-learn
 matplotlib
+
