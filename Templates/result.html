@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Prediction Result</h2>
+
+    <img src="{{ image_file }}" class="preview">
+
+    <h3>Predicted Class: <span class="label">{{ label }}</span></h3>
+    <p>Confidence: {{ confidence }}%</p>
+
+    <a href="/">Try Another Image</a>
+</div>
+
+</body>
+</html>

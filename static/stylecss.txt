@@ -1,0 +1,42 @@
+body {
+    background: #f7f9fb;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    width: 380px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #bbb;
+    text-align: center;
+}
+
+.preview {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #006eff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0053c9;
+}
+
+.label {
+    color: #006eff;
+    font-weight: bold;
+}
